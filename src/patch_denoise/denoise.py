@@ -22,7 +22,7 @@ def mp_pca(
     progbar=None,
 ):
     """
-    Marshenko-Pastur PCA denoising method.
+    Marchenko-Pastur PCA denoising method.
 
     Parameters
     ----------
@@ -232,7 +232,7 @@ def optimal_thresholding(
     progbar=None,
 ):
     """
-    Optimal thresholing denoising method.
+    Optimal thresholding denoising method.
 
     Parameters
     ----------
@@ -294,7 +294,7 @@ def adaptive_thresholding(
     progbar=None,
 ):
     """
-    Optimal thresholing denoising method.
+    Optimal thresholding denoising method.
 
     Parameters
     ----------

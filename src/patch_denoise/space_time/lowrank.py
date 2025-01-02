@@ -149,9 +149,9 @@ class RawSVDDenoiser(BaseSpaceTimeDenoiser):
     ):
         """Denoise the input_data, according to mask.
 
-        Patches are extracted sequentially and process by the implemented
+        Patches are extracted sequentially and processed by the implemented
         `_patch_processing` function.
-        Only patches which have at least a voxel in the mask ROI are processed.
+        Only patches which have at least one voxel in the mask ROI are processed.
 
         Parameters
         ----------
@@ -328,7 +328,7 @@ class OptimalSVDDenoiser(BaseSpaceTimeDenoiser):
         progbar=None,
     ):
         """
-        Optimal thresholing denoising method.
+        Optimal thresholding denoising method.
 
         Parameters
         ----------
